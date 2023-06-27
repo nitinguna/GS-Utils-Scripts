@@ -5,18 +5,18 @@
  - UL/DL particular file (say logs.txt)
  - UL/DL particular folder
 
-## Usage
+**Usage**
 ```
 bash <Script.sh> <options>
 ```
-## output 
+**Output** 
 Script will upload artifacts in GCP bucket and at the end of the script Download path is printed
 ```
 gsutil cp gs://emc-dev-apac-artifacts/njgx68/image.zip .
 ```
 above path can be directly put in desktop command prompt to download file from GCM bucket
 
-## Createzip660andupload.sh
+## createzip660andupload.sh
 **Creates a zip consist of System.img, Boot.img, Vendor.img and DTBO.img and uploads to GCP bucket**
 ```
 bash createzip660andupload.sh <out dir> <zip name>
